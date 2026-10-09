@@ -1,3 +1,4 @@
+#pasar de grados celsius a farengeid
 grados= float(input("introduce los grados:"))
 """f=cx9/5+32"""
 
