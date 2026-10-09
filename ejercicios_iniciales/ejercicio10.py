@@ -1,6 +1,8 @@
-#w3
-variable1=float(input("introduce un número:"))
-variable2=float(input("introduce el segnundo número:"))
-cociente=variable1/variable2
-resto=
-print("el cociente de estos números es:", cociente, "y el resto es:",resto)
+#10. Introduce por teclado dos números y muestre por pantalla la siguiente información:cociente, resto y si el dividendo es par o impar
+dividendo=float(input("introduce el número dividendo:"))
+divisor=float(input("introduce el número divisor:"))
+cociente=dividendo//divisor
+resto=dividendo%divisor
+if dividendo%2==0: dividendo= print("dividendo es par")
+else :dividendo= print("dividendo es impar")
+print("el cociente de estos números es:", cociente)
