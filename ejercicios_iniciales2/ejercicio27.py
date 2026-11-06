@@ -6,5 +6,7 @@ if letra.isalpha():
         print("la letra es mayúscula")
     elif letra.isupper()==False:
         print("la letra es minúscula")
+if letra.isnumeric()==True:
+    print("el valor introducido es un numero")
 else:
     print("la letra es mayúscula ¿? ")
